@@ -1,10 +1,8 @@
 // plugins/firebase.js
-
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth, signInAnonymously } from "firebase/auth";
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAM0YfcmGMeSeCbWxxfclP6BDDKAdlTxnI",
   authDomain: "goodang-project-3f7f4.firebaseapp.com",
