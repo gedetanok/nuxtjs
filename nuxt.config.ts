@@ -1,8 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// https://nuxt.com/docs/api/configuration/nuxt-config
+
+// nuxt.config.js
 export default defineNuxtConfig({
   devtools: { enabled: true },
   routeRules: {
-    // prerender index route by default
-    '/': { prerender: true },
+    "/": { prerender: true },
   },
+  plugins: ["~/plugins/firebase.js"],
 });
